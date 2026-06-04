@@ -69,10 +69,10 @@ class Predictor:
         """
         Run a single prediction on the model, loading/unloading models as needed.
         """
-        if model_name not in AVAILABLE_MODELS:
-            raise ValueError(
-                f"Invalid model name: {model_name}. Available models are: {AVAILABLE_MODELS}"
-            )
+#        if model_name not in AVAILABLE_MODELS:
+#            raise ValueError(
+#                f"Invalid model name: {model_name}. Available models are: {AVAILABLE_MODELS}"
+#            )
 
         with self.model_lock:
             model = None
