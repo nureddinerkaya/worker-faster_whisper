@@ -11,6 +11,7 @@ model_names = [
     "distil-large-v2",
     "distil-large-v3",
     "turbo",
+    "nureddin123/faster_turbo_cv25_ab25c",
 ]
 
 
